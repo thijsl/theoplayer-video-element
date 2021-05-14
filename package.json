@@ -1,0 +1,37 @@
+{
+  "name": "theoplayer-video-element",
+  "version": "0.0.1",
+  "description": "THEOplayer video element.",
+  "type": "module",
+  "main": "dist/theoplayer-video-element.js",
+  "files": [
+    "./dist/*",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && rollup --config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thijsl/theoplayer-video-element.git"
+  },
+  "keywords": [
+    "theoplayer",
+    "video",
+    "player"
+  ],
+  "author": "@thijsl",
+  "license": "MIT",
+  "dependencies": {
+    "custom-video-element": "^0.0.1",
+    "theoplayer": "^2.84.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "np": "^6.2.0",
+    "rollup": "^2.2.0",
+    "rollup-plugin-babel-minify": "^10.0.0",
+    "rollup-plugin-terser": "^5.3.0"
+  }
+}
